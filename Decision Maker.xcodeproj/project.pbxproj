@@ -14,6 +14,43 @@
 		07562E2C1A2AAA98009C246F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07562E2B1A2AAA98009C246F /* Images.xcassets */; };
 		07562E2F1A2AAA98009C246F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07562E2D1A2AAA98009C246F /* LaunchScreen.xib */; };
 		07562E3B1A2AAA98009C246F /* Decision_MakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07562E3A1A2AAA98009C246F /* Decision_MakerTests.m */; };
+		07E654B41A2ACAEE000828D3 /* UIColor+Pastel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E654B31A2ACAEE000828D3 /* UIColor+Pastel.m */; };
+		07E654B71A2AD355000828D3 /* CLYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E654B61A2AD355000828D3 /* CLYUtils.m */; };
+		07E654BB1A2B837A000828D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07E654BD1A2B837A000828D3 /* Localizable.strings */; };
+		07E654E01A2B8FC1000828D3 /* agenda.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654BF1A2B8FC0000828D3 /* agenda.svg */; };
+		07E654E11A2B8FC1000828D3 /* arrow up.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654C01A2B8FC0000828D3 /* arrow up.svg */; };
+		07E654E21A2B8FC1000828D3 /* arrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654C11A2B8FC1000828D3 /* arrow.svg */; };
+		07E654E31A2B8FC1000828D3 /* atom.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654C21A2B8FC1000828D3 /* atom.svg */; };
+		07E654E41A2B8FC1000828D3 /* attention.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654C31A2B8FC1000828D3 /* attention.svg */; };
+		07E654E51A2B8FC1000828D3 /* beer.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654C41A2B8FC1000828D3 /* beer.svg */; };
+		07E654E61A2B8FC1000828D3 /* bell.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654C51A2B8FC1000828D3 /* bell.svg */; };
+		07E654E71A2B8FC1000828D3 /* bike.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654C61A2B8FC1000828D3 /* bike.svg */; };
+		07E654E81A2B8FC1000828D3 /* bomb.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654C71A2B8FC1000828D3 /* bomb.svg */; };
+		07E654E91A2B8FC1000828D3 /* bright.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654C81A2B8FC1000828D3 /* bright.svg */; };
+		07E654EA1A2B8FC1000828D3 /* brush.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654C91A2B8FC1000828D3 /* brush.svg */; };
+		07E654EB1A2B8FC1000828D3 /* bug.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654CA1A2B8FC1000828D3 /* bug.svg */; };
+		07E654EC1A2B8FC1000828D3 /* bulb.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654CB1A2B8FC1000828D3 /* bulb.svg */; };
+		07E654ED1A2B8FC1000828D3 /* chemical.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654CC1A2B8FC1000828D3 /* chemical.svg */; };
+		07E654EE1A2B8FC1000828D3 /* clip.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654CD1A2B8FC1000828D3 /* clip.svg */; };
+		07E654EF1A2B8FC1000828D3 /* cloud2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654CE1A2B8FC1000828D3 /* cloud2.svg */; };
+		07E654F01A2B8FC1000828D3 /* coffee mug.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654CF1A2B8FC1000828D3 /* coffee mug.svg */; };
+		07E654F11A2B8FC1000828D3 /* coffee.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654D01A2B8FC1000828D3 /* coffee.svg */; };
+		07E654F21A2B8FC1000828D3 /* day.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654D11A2B8FC1000828D3 /* day.svg */; };
+		07E654F31A2B8FC1000828D3 /* gift box.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654D21A2B8FC1000828D3 /* gift box.svg */; };
+		07E654F41A2B8FC1000828D3 /* idea.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654D31A2B8FC1000828D3 /* idea.svg */; };
+		07E654F51A2B8FC1000828D3 /* love.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654D41A2B8FC1000828D3 /* love.svg */; };
+		07E654F61A2B8FC1000828D3 /* mug.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654D51A2B8FC1000828D3 /* mug.svg */; };
+		07E654F71A2B8FC1000828D3 /* mustache glasses.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654D61A2B8FC1000828D3 /* mustache glasses.svg */; };
+		07E654F81A2B8FC1000828D3 /* paper plane.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654D71A2B8FC1000828D3 /* paper plane.svg */; };
+		07E654F91A2B8FC1000828D3 /* pipe.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654D81A2B8FC1000828D3 /* pipe.svg */; };
+		07E654FA1A2B8FC1000828D3 /* robot.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654D91A2B8FC1000828D3 /* robot.svg */; };
+		07E654FB1A2B8FC1000828D3 /* Rocket.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654DA1A2B8FC1000828D3 /* Rocket.svg */; };
+		07E654FC1A2B8FC1000828D3 /* sad.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654DB1A2B8FC1000828D3 /* sad.svg */; };
+		07E654FD1A2B8FC1000828D3 /* smile.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654DC1A2B8FC1000828D3 /* smile.svg */; };
+		07E654FE1A2B8FC1000828D3 /* Soda.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654DD1A2B8FC1000828D3 /* Soda.svg */; };
+		07E654FF1A2B8FC1000828D3 /* termometer.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654DE1A2B8FC1000828D3 /* termometer.svg */; };
+		07E655001A2B8FC1000828D3 /* wine.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E654DF1A2B8FC1000828D3 /* wine.svg */; };
+		110EF9A11E8B25B65189C85E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CBC012EC7467E420442915 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0300263C71F29FA205F5245B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		07562E1B1A2AAA98009C246F /* Decision Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decision Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07562E1F1A2AAA98009C246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07562E201A2AAA98009C246F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +78,48 @@
 		07562E341A2AAA98009C246F /* Decision MakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decision MakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07562E391A2AAA98009C246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07562E3A1A2AAA98009C246F /* Decision_MakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Decision_MakerTests.m; sourceTree = "<group>"; };
+		07E654B21A2ACAEE000828D3 /* UIColor+Pastel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Pastel.h"; sourceTree = "<group>"; };
+		07E654B31A2ACAEE000828D3 /* UIColor+Pastel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Pastel.m"; sourceTree = "<group>"; };
+		07E654B51A2AD355000828D3 /* CLYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYUtils.h; sourceTree = "<group>"; };
+		07E654B61A2AD355000828D3 /* CLYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYUtils.m; sourceTree = "<group>"; };
+		07E654B81A2B71CF000828D3 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
+		07E654BC1A2B837A000828D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		07E654BE1A2B8390000828D3 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		07E654BF1A2B8FC0000828D3 /* agenda.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = agenda.svg; sourceTree = "<group>"; };
+		07E654C01A2B8FC0000828D3 /* arrow up.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "arrow up.svg"; sourceTree = "<group>"; };
+		07E654C11A2B8FC1000828D3 /* arrow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = arrow.svg; sourceTree = "<group>"; };
+		07E654C21A2B8FC1000828D3 /* atom.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = atom.svg; sourceTree = "<group>"; };
+		07E654C31A2B8FC1000828D3 /* attention.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = attention.svg; sourceTree = "<group>"; };
+		07E654C41A2B8FC1000828D3 /* beer.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = beer.svg; sourceTree = "<group>"; };
+		07E654C51A2B8FC1000828D3 /* bell.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bell.svg; sourceTree = "<group>"; };
+		07E654C61A2B8FC1000828D3 /* bike.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bike.svg; sourceTree = "<group>"; };
+		07E654C71A2B8FC1000828D3 /* bomb.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bomb.svg; sourceTree = "<group>"; };
+		07E654C81A2B8FC1000828D3 /* bright.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bright.svg; sourceTree = "<group>"; };
+		07E654C91A2B8FC1000828D3 /* brush.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = brush.svg; sourceTree = "<group>"; };
+		07E654CA1A2B8FC1000828D3 /* bug.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bug.svg; sourceTree = "<group>"; };
+		07E654CB1A2B8FC1000828D3 /* bulb.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bulb.svg; sourceTree = "<group>"; };
+		07E654CC1A2B8FC1000828D3 /* chemical.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = chemical.svg; sourceTree = "<group>"; };
+		07E654CD1A2B8FC1000828D3 /* clip.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = clip.svg; sourceTree = "<group>"; };
+		07E654CE1A2B8FC1000828D3 /* cloud2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cloud2.svg; sourceTree = "<group>"; };
+		07E654CF1A2B8FC1000828D3 /* coffee mug.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "coffee mug.svg"; sourceTree = "<group>"; };
+		07E654D01A2B8FC1000828D3 /* coffee.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = coffee.svg; sourceTree = "<group>"; };
+		07E654D11A2B8FC1000828D3 /* day.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = day.svg; sourceTree = "<group>"; };
+		07E654D21A2B8FC1000828D3 /* gift box.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gift box.svg"; sourceTree = "<group>"; };
+		07E654D31A2B8FC1000828D3 /* idea.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = idea.svg; sourceTree = "<group>"; };
+		07E654D41A2B8FC1000828D3 /* love.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = love.svg; sourceTree = "<group>"; };
+		07E654D51A2B8FC1000828D3 /* mug.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mug.svg; sourceTree = "<group>"; };
+		07E654D61A2B8FC1000828D3 /* mustache glasses.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mustache glasses.svg"; sourceTree = "<group>"; };
+		07E654D71A2B8FC1000828D3 /* paper plane.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "paper plane.svg"; sourceTree = "<group>"; };
+		07E654D81A2B8FC1000828D3 /* pipe.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pipe.svg; sourceTree = "<group>"; };
+		07E654D91A2B8FC1000828D3 /* robot.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = robot.svg; sourceTree = "<group>"; };
+		07E654DA1A2B8FC1000828D3 /* Rocket.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Rocket.svg; sourceTree = "<group>"; };
+		07E654DB1A2B8FC1000828D3 /* sad.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sad.svg; sourceTree = "<group>"; };
+		07E654DC1A2B8FC1000828D3 /* smile.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = smile.svg; sourceTree = "<group>"; };
+		07E654DD1A2B8FC1000828D3 /* Soda.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Soda.svg; sourceTree = "<group>"; };
+		07E654DE1A2B8FC1000828D3 /* termometer.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = termometer.svg; sourceTree = "<group>"; };
+		07E654DF1A2B8FC1000828D3 /* wine.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = wine.svg; sourceTree = "<group>"; };
+		11DC18CFC0BBA4AFA98C27F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		85CBC012EC7467E420442915 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110EF9A11E8B25B65189C85E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +144,12 @@
 		07562E121A2AAA98009C246F = {
 			isa = PBXGroup;
 			children = (
+				07E654BD1A2B837A000828D3 /* Localizable.strings */,
 				07562E1D1A2AAA98009C246F /* Decision Maker */,
 				07562E371A2AAA98009C246F /* Decision MakerTests */,
 				07562E1C1A2AAA98009C246F /* Products */,
+				76DE934CF9A61B400A74490E /* Pods */,
+				98BED60AB0C9F50F70ED79D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +165,9 @@
 		07562E1D1A2AAA98009C246F /* Decision Maker */ = {
 			isa = PBXGroup;
 			children = (
+				07E654B11A2ACAB4000828D3 /* Categories */,
+				07E654AE1A2AC106000828D3 /* SVGs */,
+				77E10C8698CD4F2EDD63CECD /* Utils */,
 				07562E221A2AAA98009C246F /* AppDelegate.h */,
 				07562E231A2AAA98009C246F /* AppDelegate.m */,
 				07562E251A2AAA98009C246F /* ViewController.h */,
@@ -119,6 +206,81 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		07E654AE1A2AC106000828D3 /* SVGs */ = {
+			isa = PBXGroup;
+			children = (
+				07E654BF1A2B8FC0000828D3 /* agenda.svg */,
+				07E654C01A2B8FC0000828D3 /* arrow up.svg */,
+				07E654C11A2B8FC1000828D3 /* arrow.svg */,
+				07E654C21A2B8FC1000828D3 /* atom.svg */,
+				07E654C31A2B8FC1000828D3 /* attention.svg */,
+				07E654C41A2B8FC1000828D3 /* beer.svg */,
+				07E654C51A2B8FC1000828D3 /* bell.svg */,
+				07E654C61A2B8FC1000828D3 /* bike.svg */,
+				07E654C71A2B8FC1000828D3 /* bomb.svg */,
+				07E654C81A2B8FC1000828D3 /* bright.svg */,
+				07E654C91A2B8FC1000828D3 /* brush.svg */,
+				07E654CA1A2B8FC1000828D3 /* bug.svg */,
+				07E654CB1A2B8FC1000828D3 /* bulb.svg */,
+				07E654CC1A2B8FC1000828D3 /* chemical.svg */,
+				07E654CD1A2B8FC1000828D3 /* clip.svg */,
+				07E654CE1A2B8FC1000828D3 /* cloud2.svg */,
+				07E654CF1A2B8FC1000828D3 /* coffee mug.svg */,
+				07E654D01A2B8FC1000828D3 /* coffee.svg */,
+				07E654D11A2B8FC1000828D3 /* day.svg */,
+				07E654D21A2B8FC1000828D3 /* gift box.svg */,
+				07E654D31A2B8FC1000828D3 /* idea.svg */,
+				07E654D41A2B8FC1000828D3 /* love.svg */,
+				07E654D51A2B8FC1000828D3 /* mug.svg */,
+				07E654D61A2B8FC1000828D3 /* mustache glasses.svg */,
+				07E654D71A2B8FC1000828D3 /* paper plane.svg */,
+				07E654D81A2B8FC1000828D3 /* pipe.svg */,
+				07E654D91A2B8FC1000828D3 /* robot.svg */,
+				07E654DA1A2B8FC1000828D3 /* Rocket.svg */,
+				07E654DB1A2B8FC1000828D3 /* sad.svg */,
+				07E654DC1A2B8FC1000828D3 /* smile.svg */,
+				07E654DD1A2B8FC1000828D3 /* Soda.svg */,
+				07E654DE1A2B8FC1000828D3 /* termometer.svg */,
+				07E654DF1A2B8FC1000828D3 /* wine.svg */,
+			);
+			name = SVGs;
+			sourceTree = "<group>";
+		};
+		07E654B11A2ACAB4000828D3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				07E654B21A2ACAEE000828D3 /* UIColor+Pastel.h */,
+				07E654B31A2ACAEE000828D3 /* UIColor+Pastel.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		76DE934CF9A61B400A74490E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0300263C71F29FA205F5245B /* Pods.debug.xcconfig */,
+				11DC18CFC0BBA4AFA98C27F7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77E10C8698CD4F2EDD63CECD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				07E654B51A2AD355000828D3 /* CLYUtils.h */,
+				07E654B61A2AD355000828D3 /* CLYUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		98BED60AB0C9F50F70ED79D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85CBC012EC7467E420442915 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07562E3E1A2AAA98009C246F /* Build configuration list for PBXNativeTarget "Decision Maker" */;
 			buildPhases = (
+				5BAF4534FDB81F9D33D74F0B /* Check Pods Manifest.lock */,
 				07562E171A2AAA98009C246F /* Sources */,
 				07562E181A2AAA98009C246F /* Frameworks */,
 				07562E191A2AAA98009C246F /* Resources */,
+				511A32E6AAF6F4894773D2E4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +346,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-MX",
 			);
 			mainGroup = 07562E121A2AAA98009C246F;
 			productRefGroup = 07562E1C1A2AAA98009C246F /* Products */;
@@ -199,9 +364,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E654E91A2B8FC1000828D3 /* bright.svg in Resources */,
+				07E654E61A2B8FC1000828D3 /* bell.svg in Resources */,
+				07E654F51A2B8FC1000828D3 /* love.svg in Resources */,
+				07E654F41A2B8FC1000828D3 /* idea.svg in Resources */,
+				07E654F11A2B8FC1000828D3 /* coffee.svg in Resources */,
+				07E654F01A2B8FC1000828D3 /* coffee mug.svg in Resources */,
+				07E654E71A2B8FC1000828D3 /* bike.svg in Resources */,
+				07E654EB1A2B8FC1000828D3 /* bug.svg in Resources */,
+				07E654BB1A2B837A000828D3 /* Localizable.strings in Resources */,
+				07E655001A2B8FC1000828D3 /* wine.svg in Resources */,
+				07E654E81A2B8FC1000828D3 /* bomb.svg in Resources */,
+				07E654E41A2B8FC1000828D3 /* attention.svg in Resources */,
+				07E654E51A2B8FC1000828D3 /* beer.svg in Resources */,
+				07E654EC1A2B8FC1000828D3 /* bulb.svg in Resources */,
+				07E654E01A2B8FC1000828D3 /* agenda.svg in Resources */,
 				07562E2A1A2AAA98009C246F /* Main.storyboard in Resources */,
+				07E654F61A2B8FC1000828D3 /* mug.svg in Resources */,
+				07E654FB1A2B8FC1000828D3 /* Rocket.svg in Resources */,
+				07E654F31A2B8FC1000828D3 /* gift box.svg in Resources */,
 				07562E2F1A2AAA98009C246F /* LaunchScreen.xib in Resources */,
+				07E654FA1A2B8FC1000828D3 /* robot.svg in Resources */,
+				07E654FF1A2B8FC1000828D3 /* termometer.svg in Resources */,
+				07E654EE1A2B8FC1000828D3 /* clip.svg in Resources */,
+				07E654FC1A2B8FC1000828D3 /* sad.svg in Resources */,
+				07E654EF1A2B8FC1000828D3 /* cloud2.svg in Resources */,
+				07E654FD1A2B8FC1000828D3 /* smile.svg in Resources */,
+				07E654E21A2B8FC1000828D3 /* arrow.svg in Resources */,
+				07E654E11A2B8FC1000828D3 /* arrow up.svg in Resources */,
+				07E654F91A2B8FC1000828D3 /* pipe.svg in Resources */,
 				07562E2C1A2AAA98009C246F /* Images.xcassets in Resources */,
+				07E654E31A2B8FC1000828D3 /* atom.svg in Resources */,
+				07E654F81A2B8FC1000828D3 /* paper plane.svg in Resources */,
+				07E654ED1A2B8FC1000828D3 /* chemical.svg in Resources */,
+				07E654EA1A2B8FC1000828D3 /* brush.svg in Resources */,
+				07E654F71A2B8FC1000828D3 /* mustache glasses.svg in Resources */,
+				07E654FE1A2B8FC1000828D3 /* Soda.svg in Resources */,
+				07E654F21A2B8FC1000828D3 /* day.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,12 +413,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		511A32E6AAF6F4894773D2E4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BAF4534FDB81F9D33D74F0B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07562E171A2AAA98009C246F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E654B41A2ACAEE000828D3 /* UIColor+Pastel.m in Sources */,
 				07562E271A2AAA98009C246F /* ViewController.m in Sources */,
+				07E654B71A2AD355000828D3 /* CLYUtils.m in Sources */,
 				07562E241A2AAA98009C246F /* AppDelegate.m in Sources */,
 				07562E211A2AAA98009C246F /* main.m in Sources */,
 			);
@@ -248,6 +482,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				07562E291A2AAA98009C246F /* Base */,
+				07E654B81A2B71CF000828D3 /* es-MX */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -258,6 +493,15 @@
 				07562E2E1A2AAA98009C246F /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		07E654BD1A2B837A000828D3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E654BC1A2B837A000828D3 /* en */,
+				07E654BE1A2B8390000828D3 /* es-MX */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,21 +585,25 @@
 		};
 		07562E3F1A2AAA98009C246F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0300263C71F29FA205F5245B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Decision Maker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
 		07562E401A2AAA98009C246F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DC18CFC0BBA4AFA98C27F7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Decision Maker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};
@@ -412,6 +660,7 @@
 				07562E401A2AAA98009C246F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07562E411A2AAA98009C246F /* Build configuration list for PBXNativeTarget "Decision MakerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +669,7 @@
 				07562E431A2AAA98009C246F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

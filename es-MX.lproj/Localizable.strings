@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  Decision Maker
+
+  Created by Carlos Eduardo López Mercado on 11/30/14.
+  Copyright (c) 2014 Carlos Eduardo López Mercado. All rights reserved.
+*/
+
+shake_me = "Agítame para ayudarte a decidir";
+force_first = "La fuerza está contigo en la primera opción";
+force_second = "La fuerza está contigo en la segunda opción";
+ithink_first = "Deberías elegir la primera opción";
+ithink_second = "Deberías elegir la segunda opción";
+ifeel_first = "Siento disturbios en tu primera opción";
+ifeel_second = "Siento disturbios en tu primera opción";
+light_first = "La luz abraza tu primera opción";
+light_second = "La luz abraza tu segunda opción";
+doubt_first = "Primera opción. Sin duda";
+doubt_second = "Segunda opción. Sin duda";
+graduate_first = "Primera opción, ¿estás tratando de seducirme?";
+graduate_second = "Segunda opción, ¿estás tratando de seducirme?";
+damn = "Querido, en realidad no me importa";
+corleone_first = "Voy a darte una opción que no podrás rechazar. \nLa primera.";
+corleone_second = "Voy a darte una opción que no podrás rechazar. \nLa segunda.";
+toto_first = "Tengo el presentimiento de que no irás por la primera opción.";
+toto_second = "Tengo el presentimiento de que no irás por la segunda opción.";
+talkin = "¿Me estás hablando?";
+et_first = "E.T. \nPrimera opción. \nVe.";
+et_second = "E.T. \nSegunda opción. \nVe.";
+oz_first  = "No hay otra opción como la primera.";
+oz_second  = "No hay otra opción como la segunda.";
+truth_first  = "¡No puedes controlar la primera opción!";
+truth_second  = "¡No puedes controlar la segunda opción!";
+dead_options  = "Veo opciones muertas";
+frank_first  = "¡La primera opción está viva! ¡Viva!";
+frank_second  = "¡La segunda opción está viva! ¡Viva!";
+paccino_first  = "Mantén tus opciones cerca, pero tu primera opción más cerca.";
+paccino_second  = "Mantén tus opciones cerca, pero tu segunda opción más cerca.";
+tony_first = "¡Di 'hola' a mi primera opción!";
+tony_second = "¡Di 'hola' a mi segunda opción!";
+
+

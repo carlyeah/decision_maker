@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  Decision Maker
+
+  Created by Carlos Eduardo López Mercado on 11/30/14.
+  Copyright (c) 2014 Carlos Eduardo López Mercado. All rights reserved.
+*/
+
+shake_me = "Shake me to help you decide";
+force_first = "The force is strong with your first option";
+force_second = "The force is strong with your second option";
+ithink_first = "I think you should go with your first option";
+ithink_second = "I think you should go with your second option";
+ifeel_first = "I feel a disturbance in your first option";
+ifeel_second = "I feel a disturbance in your second option";
+light_first = "The light embrace your first option";
+light_second = "The light embrace your second option";
+doubt_first = "First option. No doubt";
+doubt_second = "Second option. No doubt";
+graduate_first = "First option, you're trying to seduce me. Aren't you?";
+graduate_second = "Second option, you're trying to seduce me. Aren't you?";
+damn = "My dear, I don't give a damn";
+corleone_first = "I'm going to give you an option you can't refuse. \nThe first.";
+corleone_second = "I'm going to give you an option you can't refuse. \nThe second.";
+toto_first = "I've got a feeling you're not with the first option any more.";
+toto_second = "I've got a feeling you're not with the second option any more.";
+talkin = "You talkin' to me?";
+et_first = "E.T. \nFirst Option. \nGo.";
+et_second = "E.T. \nSecond Option. \nGo.";
+oz_first  = "There's no option like the first one.";
+oz_second  = "There's no option like the second one.";
+truth_first  = "You can't handle the first option!";
+truth_second  = "You can't handle the second option!";
+dead_options  = "I see dead options";
+frank_first  = "The first option it's alive! It's alive!";
+frank_second  = "The second option it's alive! It's alive!";
+paccino_first  = "Keep your options close, but your first option closer";
+paccino_second  = "Keep your options close, but your second option closer";
+tony_first = "Say 'hello' to my first option!";
+tony_second = "Say 'hello' to my second option!";
+
+
