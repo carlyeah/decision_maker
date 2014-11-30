@@ -11,9 +11,12 @@
 @interface CLYUtils : NSObject
 
 @property (strong, nonatomic) NSArray *listOfQuotes;
+@property (strong, nonatomic) NSMutableArray *listOfSVG;
 
 -(NSArray *)palette;
 -(NSString *)getQuote;
+-(NSString *)getSVG;
+-(NSString *)getShakeMessage;
 
 
 

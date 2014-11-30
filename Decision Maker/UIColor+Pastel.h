@@ -18,5 +18,7 @@
 +(UIColor *)colorWithPinkAccent;
 +(UIColor *)colorWithOrangeAccent;
 +(UIColor *)colorWithLightestGray;
++(UIColor *)colorWithGreenAccent;
++(UIColor *)colorWithYellowAccentBG;
 
 @end

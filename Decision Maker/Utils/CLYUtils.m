@@ -22,11 +22,15 @@
         _listOfQuotes = [self loadListOfQuotes];
     }
 
+    if (_listOfSVG == nil) {
+        _listOfSVG = [self loadSVGList];
+    }
+
     return self;
 
 }
 
--(NSArray *)palette {
+- (NSArray *)palette {
 
     CGFloat hue = ((CGFloat) arc4random() / ARC4RANDOM_MAX);
 
@@ -35,27 +39,48 @@
                                           brightness:BRIGHTNESS
                                                alpha:1.000];
 
-    UIColor *mainColor = [UIColor colorWithHue:hue
+    UIColor *mainColor = [UIColor colorWithHue:(CGFloat) (hue - 1.0)
                                     saturation:SATURATION
                                     brightness:BRIGHTNESS
                                          alpha:1.0];
 
     UIColor *titleColor = [UIColor colorWithHue:hue
-                                     saturation:SATURATION
-                                     brightness:BRIGHTNESS
+                                     saturation:(CGFloat) (SATURATION + 0.3)
+                                     brightness:0.8
                                           alpha:1.0];
 
     return @[backgroundColor, mainColor, titleColor];
 }
 
 - (NSString *)getQuote {
-    return self.listOfQuotes[arc4random_uniform(self.listOfQuotes.count)];
+    return self.listOfQuotes[arc4random_uniform(self.listOfQuotes.count + 1)];
+}
+
+- (NSString *)getSVG {
+    return self.listOfSVG[arc4random_uniform(self.listOfSVG.count)];
+}
+
+- (NSString *)getShakeMessage {
+    return self.listOfQuotes[0];
+}
+
+
+- (NSMutableArray *)loadSVGList {
+    NSMutableArray *result = [NSMutableArray array];
+    [[[NSBundle mainBundle] pathsForResourcesOfType:@"svg" inDirectory:nil] enumerateObjectsUsingBlock:^(NSString *obj, NSUInteger idx, BOOL *stop) {
+        NSString *path = [obj lastPathComponent];
+        NSArray *splitFileName = [path componentsSeparatedByString:@"."];
+        [result addObject:splitFileName[0]];
+    }];
+
+    return result;
 }
 
 
 - (NSArray *)loadListOfQuotes {
 
     return @[
+            NSLocalizedString(@"shake_me", @"shake"),
             NSLocalizedString(@"force_first", @"force_1"),
             NSLocalizedString(@"force_second", @"force_2"),
             NSLocalizedString(@"ithink_first", @"force_2"),

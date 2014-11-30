@@ -42,5 +42,16 @@
     return [UIColor colorWithRed: 1 green: 0.996 blue: 1 alpha: 1];
 }
 
++ (UIColor *)colorWithGreenAccent {
+    return [UIColor colorWithRed: 0.451 green: 0.761 blue: 0.745 alpha: 1];
+}
+
++ (UIColor *)colorWithYellowAccentBG {
+    return [UIColor colorWithRed: 0.933 green: 0.965 blue: 0.212 alpha: 1];
+}
+
+//[UIColor colorWithHue: 0.492 saturation: 0.407 brightness: 0.761 alpha: 1] green
+//[UIColor colorWithHue: 0.174 saturation: 0.78 brightness: 0.965 alpha: 1]  yellow
+
 
 @end

@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *iconIV;
 @property (weak, nonatomic) IBOutlet UIView *carView;
 @property (weak, nonatomic) IBOutlet UILabel *ideaLabel;
+@property (weak, nonatomic) IBOutlet UILabel *appTitle;
 
 
 @end

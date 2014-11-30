@@ -14,7 +14,8 @@
 
 @interface ViewController ()
 
-@property (nonatomic, strong) CLYUtils *utils;
+@property(nonatomic, strong) CLYUtils *utils;
+@property(nonatomic, strong) UIImage *image;
 
 @end
 
@@ -25,16 +26,11 @@
 
     self.utils = [[CLYUtils alloc] init];
 
-    UIImage* image = [UIImage imageWithSVGNamed:@"arrow up"
-                                     targetSize:CGSizeMake(200, 200)
-                                      fillColor:[UIColor whiteColor]];
+    self.ideaLabel.font = [UIFont fontWithName:@"HipsterishFontNormal" size:50];
 
-    self.iconIV.image = image;
+    [self setPaletteInViewWithInitialValue:YES];
 
-
-    [self setPaletteInView];
-
-    self.carView.layer.cornerRadius = 10;
+    self.carView.layer.cornerRadius = 5;
     self.carView.clipsToBounds;
 
 }
@@ -44,13 +40,31 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void) setPaletteInView{
+- (void)setPaletteInViewWithInitialValue:(BOOL)initial {
 
     NSArray *palette = [self.utils palette];
 
+
+    self.view.backgroundColor = palette[0];
     self.carView.backgroundColor = palette[0];
-   // self.view.backgroundColor = palette[0];
-    self.ideaLabel.text = [self.utils getQuote];
+
+    self.ideaLabel.textColor = palette[2];
+    self.appTitle.textColor = palette[2];
+
+
+    if (initial) {
+        self.ideaLabel.text = [self.utils getShakeMessage];
+        self.image = [UIImage imageWithSVGNamed:@"bulb"
+                                     targetSize:CGSizeMake(200, 200)
+                                      fillColor:palette[2]];
+    } else {
+        self.ideaLabel.text = [self.utils getQuote];
+        self.image = [UIImage imageWithSVGNamed:[self.utils getSVG]
+                                     targetSize:CGSizeMake(200, 200)
+                                      fillColor:palette[2]];
+    }
+
+    self.iconIV.image = self.image;
 
 }
 
@@ -62,7 +76,7 @@
 
 - (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
     if (motion == UIEventSubtypeMotionShake) {
-        [self setPaletteInView];
+        [self setPaletteInViewWithInitialValue:NO];
     }
 }
 
